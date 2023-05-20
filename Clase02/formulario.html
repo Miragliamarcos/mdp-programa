@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscripción a la Carrera</title>
+</head>
+<body>
+  <h1>Inscripción a la Carrera</h1>
+
+  <form>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br>
+
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" required><br>
+
+    <label for="fecha_nacimiento">Fecha de nacimiento:</label><br>
+    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+
+    <label for="pais">País:</label><br>
+    <input type="text" id="pais" name="pais" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="trabaja">¿Trabaja?</label><br>
+    <select id="trabaja" name="trabaja" required>
+      <option value="" disabled selected>Selecciona una opción</option>
+      <option value="si">Sí</option>
+      <option value="no">No</option>
+    </select><br>
+
+    <label>Turno:</label><br>
+    <input type="radio" id="turno_manana" name="turno" value="mañana" required>
+    <label for="turno_manana">Mañana</label><br>
+
+    <input type="radio" id="turno_tarde" name="turno" value="tarde">
+    <label for="turno_tarde">Tarde</label><br>
+
+    <input type="radio" id="turno_noche" name="turno" value="noche">
+    <label for="turno_noche">Noche</label><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar formulario">
+  </form>
+</body>
+</html>
