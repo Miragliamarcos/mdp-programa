@@ -91,3 +91,11 @@ footer{
     background-color: bisque;
     padding: 60px;
 }
+footer section{
+    width: 33.3%;
+    float: left ;
+}
+footer section p{
+    text-align: center;
+
+}
