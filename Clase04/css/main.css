@@ -39,6 +39,9 @@ main div{
     padding: 20px;
     
 }
+main div p{
+    font-family: sans-serif;
+}
 main section{
     width: 50%;
     float: left;
