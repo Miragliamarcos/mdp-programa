@@ -48,3 +48,10 @@ main section{
     padding: 20px;
     
 }
+aside{
+    background-color: white;
+}
+aside h3{
+    float: left;
+    padding-top: 10px;
+}
